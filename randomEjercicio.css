@@ -1,0 +1,136 @@
+body {
+	background: #76FF7B;
+	margin: 0;
+	color : #76FF7B;
+	font-family: 'Roboto', sans-serif;
+	/* font color todo, color elegido */
+	/* background color body, color elegido*/
+		/*pizarra background color, color elegido*/
+	transition: all 2s;
+
+}
+
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 50px;
+	background-color: white;
+}
+
+.green {
+	background: #76FF7B;
+	color: #76FF7B;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.pink {
+	background-color: #FF69AF;
+	color: #FF69AF;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.purple {
+	background: #5729CE;
+	color: #5729CE;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.blue {
+	background-color: #247AFD;
+	color: #247AFD;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.orange {
+	background-color: #FFAB0F;
+	color: #FFAB0F;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.yellow {
+	background-color: #FFC512;
+	color: #FFC512;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#pizarra {
+  position: absolute;
+  height: 205px;
+  padding: 10px 0px;
+  background: inherit;
+}
+
+
+.normal {
+  width: 0%;
+  transition: width 2s;
+}
+
+.grow {
+  width: 100%;
+  transition: width 2s;
+}
+
+.container{
+	max-width: 600px;
+	margin: 10% auto;
+	text-align: center;
+	align-items: center;
+	position: relative;
+	background: inherit;
+
+}
+
+.cuadrado {
+	width: 33.33%;
+	height: 33.33%;
+	float: left;
+	padding-bottom: 12.5%;
+	padding-top: 12.5%;
+	padding-left: 0;
+	padding-right: 0;
+	background: rgba(255, 255, 255, 1);
+	font-size: 4rem;
+	text-align: center;
+	
+}
+
+.borrar {
+	margin-top: 30px;
+	padding:10px 10px;
+	width: 30%;
+	border: none;
+	font-size: 2rem;
+	outline: none;
+	cursor: pointer;
+	transition: color 0.5s;
+	transition: width 2s;
+
+}
+
+.borrar:hover{
+	width: 100%;
+}
+
+.generador1 {
+	margin-top: 30px;
+	padding:10px 10px;
+	width: 30%;
+	color: inherit;
+	border: none;
+	font-size: 2rem;
+	outline: none;
+	cursor: pointer;
+	transition: width 2s;
+}
+
+.generador1:hover{
+	width: 100%;
+}
